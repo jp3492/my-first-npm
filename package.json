@@ -1,7 +1,6 @@
 {
-  "name": "first-npm",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@jappi/first-npm",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jp3492/my-first-npm.git"
+    "url": "git+ssh://git@github.com/jp3492/my-first-npm.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "= <=>",
   "license": "ISC",
   "devDependencies": {
     "@types/pluralize": "0.0.29",
@@ -23,5 +22,14 @@
   },
   "dependencies": {
     "pluralize": "^7.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jp3492/my-first-npm/issues"
+  },
+  "homepage": "https://github.com/jp3492/my-first-npm#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "description": ""
 }

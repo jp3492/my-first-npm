@@ -16,4 +16,4 @@ var pluralize = __importStar(require("pluralize"));
 function getPlural(str) {
     return pluralize.plural(str);
 }
-exports.getPlural = getPlural;
+exports.default = getPlural;
